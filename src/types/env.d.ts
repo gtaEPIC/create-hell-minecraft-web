@@ -1,0 +1,12 @@
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+  readonly VITE_SERVER_URL: string
+  readonly VITE_DYNMAP_URL: string
+  readonly VITE_TRACKMAP_URL: string
+  readonly VITE_FORMSPREE_ID: string
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}
