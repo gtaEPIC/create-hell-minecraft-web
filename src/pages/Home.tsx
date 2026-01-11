@@ -129,33 +129,24 @@ export const Home = () => {
               placeholder="Enter your Minecraft username"
               required
             />
-            <Form.Text className="text-muted">
+            <Form.Text className="text-light">
               Your exact Minecraft Java Edition username (case-sensitive)
             </Form.Text>
           </Form.Group>
 
           <Form.Group className="mb-3">
-            <Form.Label>Email Address *</Form.Label>
+            <Form.Label>Discord Username (not display name) *</Form.Label>
             <Form.Control
-              type="email"
-              name="email"
-              placeholder="your@email.com"
+              type="text"
+              name="discord"
+              placeholder="@gtaepic"
               required
             />
-            <Form.Text className="text-muted">
-              We'll use this to contact you about your application
+            <Form.Text className="text-light">
+              We'll use this to contact you about your application<br />
+              Also note that you must be in the Ry-Transit Discord to join the server<br />
+              If you are not contacted then you may not have been accepted
             </Form.Text>
-          </Form.Group>
-
-          <Form.Group className="mb-3">
-            <Form.Label>Why do you want to join Create Hell? *</Form.Label>
-            <Form.Control
-              as="textarea"
-              name="message"
-              rows={4}
-              placeholder="Tell us a bit about yourself and why you're interested in joining our server..."
-              required
-            />
           </Form.Group>
 
           <Form.Group className="mb-3">

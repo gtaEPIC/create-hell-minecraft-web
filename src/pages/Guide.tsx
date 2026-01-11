@@ -47,17 +47,35 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/create-hell.mrpack" download className="btn btn-primary">
+          <a href="/modpacks/Create%20Hell%201.1.0.mrpack" download className="btn btn-primary">
             <i className="bi bi-download me-2"></i>
             Download .mrpack File
           </a>
         </div>
 
-        <h3>Option 2: CurseForge Launcher (.zip)</h3>
-        <p>For CurseForge Launcher or manual installation with Forge/Fabric.</p>
+        <h3>Option 2: Curseforge Launcher (.zip)</h3>
+        <p>For CurseForge Launcher with Forge.</p>
         <ol>
           <li>Download the <strong>.zip</strong> file from the <a href="/downloads">Downloads</a> page</li>
-          <li>Make sure you have the correct version of Minecraft Forge or Fabric installed</li>
+          <li>Launch Curseforge on your machine.</li>
+          <li>Select the import profile button from the Minecraft page</li>
+          <li>Browse to the downloaded .zip file and select it</li>
+          <li>Wait for the launcher to download and install all mods automatically</li>
+          <li>Launch the instance once installation is complete</li>
+        </ol>
+
+        <div className="my-4">
+          <a href="/modpacks/Create%20Hell%201.1.0%20Curseforge.zip" download className="btn btn-outline-primary">
+            <i className="bi bi-download me-2"></i>
+            Download .zip File
+          </a>
+        </div>
+
+        <h3>Option 3: Manual Install (.zip)</h3>
+        <p>For CurseForge Launcher with Forge.</p>
+        <ol>
+          <li>Download the <strong>.zip</strong> file from the <a href="/downloads">Downloads</a> page</li>
+          <li>Make sure you have the correct version of Minecraft Forge installed (v47.3.29)</li>
           <li>Locate your Minecraft installation folder:
             <ul>
               <li><strong>Windows:</strong> <code>%appdata%\.minecraft</code></li>
@@ -70,7 +88,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/create-hell.zip" download className="btn btn-success">
+          <a href="/modpacks/Create%20Hell%201.1.0%20Manual.zip" download className="btn btn-outline-success">
             <i className="bi bi-download me-2"></i>
             Download .zip File
           </a>
@@ -144,7 +162,7 @@ export const Guide = () => {
             If you encounter any issues during installation or setup, please contact a server administrator
             or ask for help in the community Discord server.
           </p>
-          <p className="text-muted">
+          <p className="text-muted text-light">
             Make sure to read the <a href="/rules">Server Rules</a> before playing!
           </p>
         </div>

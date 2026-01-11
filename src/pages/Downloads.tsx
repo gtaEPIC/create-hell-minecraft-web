@@ -1,6 +1,8 @@
 import PageLayout from '../components/PageLayout';
 import { Card, Row, Col } from 'react-bootstrap';
 import '../styles/pages.css';
+import {RiFolderZipLine} from "react-icons/ri";
+import {PiFileZipDuotone} from "react-icons/pi";
 
 export const Downloads = () => {
   return (
@@ -11,7 +13,7 @@ export const Downloads = () => {
           Choose your preferred format below. Both options contain the same mods and configurations.
         </p>
 
-        <Row className="g-4">
+        <Row className="g-4 mb-4">
           <Col md={6}>
             <Card bg="dark" text="light" className="download-card">
               <Card.Body>
@@ -24,7 +26,7 @@ export const Downloads = () => {
                   This format provides the easiest installation experience with automatic mod downloading.
                 </Card.Text>
                 <a
-                  href="/modpacks/create-hell.mrpack"
+                  href="/modpacks/Create%20Hell%201.1.0.mrpack"
                   download
                   className="btn btn-primary btn-lg"
                 >
@@ -39,17 +41,42 @@ export const Downloads = () => {
             <Card bg="dark" text="light" className="download-card">
               <Card.Body>
                 <div className="download-icon">
-                  <i className="bi bi-folder-zip"></i>
+                  <RiFolderZipLine />
                 </div>
-                <Card.Title>Mods Folder (.zip)</Card.Title>
+                <Card.Title>Curseforge Modpack (.zip)</Card.Title>
                 <Card.Text>
-                  For <strong>CurseForge Launcher</strong> or manual installation.
-                  Extract the contents to your Minecraft mods folder. Requires Forge/Fabric to be installed separately.
+                  For <strong>CurseForge Launcher</strong> only.
+                  Extract the contents to your Minecraft mods folder. Import this profile into curseforge to use.
                 </Card.Text>
                 <a
-                  href="/modpacks/create-hell.zip"
+                  href="/modpacks/Create%20Hell%201.1.0%20Curseforge.zip"
                   download
-                  className="btn btn-success btn-lg"
+                  className="btn btn-outline-primary btn-lg"
+                >
+                  <i className="bi bi-download me-2"></i>
+                  Download .zip
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row className="g-4 mb-2">
+          <Col>
+            <Card bg="dark" text="light" className="download-card">
+              <Card.Body>
+                <div className="download-icon">
+                  <PiFileZipDuotone />
+                </div>
+                <Card.Title>Manual Install (.zip)</Card.Title>
+                <Card.Text>
+                  If you don't wish to use a launcher, download this zip file.
+                  Extract the contents into your Minecraft folder to play with the modpack.
+                </Card.Text>
+                <a
+                    href="/modpacks/Create%20Hell%201.1.0%20Manual.zip"
+                    download
+                    className="btn btn-outline-success btn-lg"
                 >
                   <i className="bi bi-download me-2"></i>
                   Download .zip
@@ -60,7 +87,7 @@ export const Downloads = () => {
         </Row>
 
         <div className="mt-5 text-center">
-          <p className="text-muted">
+          <p className="text-muted text-light">
             Need help installing? Check out our <a href="/guide">Setup Guide</a> for step-by-step instructions.
           </p>
         </div>

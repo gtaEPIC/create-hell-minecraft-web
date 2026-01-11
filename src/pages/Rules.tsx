@@ -4,15 +4,18 @@ import '../styles/pages.css';
 export const Rules = () => {
   const rules = [
     "Be respectful to all players - no harassment, hate speech, or toxic behavior",
+    "No slurs or discriminatory language of any kind (that includes you Burned and Ryzen)",
     "No griefing or stealing from other players' bases or builds",
     "No cheating, hacking, or exploiting game bugs for personal advantage",
-    "Keep chat appropriate - no spam, excessive profanity, or inappropriate content",
-    "Follow staff instructions and respect their decisions",
+    "No spam, excessive profanity, or inappropriate content",
     "No lag machines or intentionally causing server performance issues",
     "Build at least 100 blocks away from spawn unless given permission",
-    "Ask before taking items from community farms or shared resources",
     "Use common sense - if something feels wrong, it probably is",
-    "Have fun and help create a welcoming community for everyone!"
+    "Put your name on trains (signs) you build for easy identification",
+    "Except for near your base, tracks are considered public property - anyone can use / modify them",
+    "Do not destroy public infrastructure (including tracks) without permission",
+    "You may re-route / modify existing public tracks",
+    "Have fun!"
   ];
 
   return (
