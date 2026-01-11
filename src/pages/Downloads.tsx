@@ -74,7 +74,7 @@ export const Downloads = () => {
                   Extract the contents into your Minecraft folder to play with the modpack.
                 </Card.Text>
                 <a
-                    href="/modpacks/Create%20Hell%201.1.0%20Manual.zip"
+                    href="https://downloads.gtaepic.xyz/Create%20Hell%201.1.0%20Manual.zip"
                     download
                     className="btn btn-outline-success btn-lg"
                 >
