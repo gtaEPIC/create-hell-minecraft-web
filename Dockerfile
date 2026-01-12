@@ -13,8 +13,8 @@ COPY . .
 
 # Set production environment variables for Vite build
 ARG VITE_SERVER_URL=minecraft.gtaepic.xyz
-ARG VITE_DYNMAP_URL=http://minecraft.gtaepic.xyz/map
-ARG VITE_TRACKMAP_URL=http://minecraft.gtaepic.xyz/track
+ARG VITE_DYNMAP_URL=https://minecraft.gtaepic.xyz/map
+ARG VITE_TRACKMAP_URL=https://minecraft.gtaepic.xyz/track
 ARG VITE_FORMSPREE_ID=xqeezvde
 
 ENV VITE_SERVER_URL=${VITE_SERVER_URL}
