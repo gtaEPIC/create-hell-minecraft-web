@@ -47,7 +47,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/Create%20Hell%201.1.0.mrpack" download className="btn btn-primary">
+          <a href="/modpacks/Create%20Hell%201.2.0.mrpack" download className="btn btn-primary">
             <i className="bi bi-download me-2"></i>
             Download .mrpack File
           </a>
@@ -65,7 +65,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/Create%20Hell%201.1.0%20Curseforge.zip" download className="btn btn-outline-primary">
+          <a href="/modpacks/Create%20Hell%201.2.0%20Curseforge.zip" download className="btn btn-outline-primary">
             <i className="bi bi-download me-2"></i>
             Download .zip File
           </a>
@@ -88,7 +88,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="https://downloads.gtaepic.xyz/Create%20Hell%201.1.0%20Manual.zip" download className="btn btn-outline-success">
+          <a href="https://downloads.gtaepic.xyz/Create%20Hell%201.2.0%20Manual.zip" download className="btn btn-outline-success">
             <i className="bi bi-download me-2"></i>
             Download .zip File
           </a>
