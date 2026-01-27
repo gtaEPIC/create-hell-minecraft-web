@@ -26,7 +26,7 @@ export const Downloads = () => {
                   This format provides the easiest installation experience with automatic mod downloading.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.2.0.mrpack"
+                  href="/modpacks/Create%20Hell%201.4.0.mrpack"
                   download
                   className="btn btn-primary btn-lg"
                 >
@@ -49,7 +49,7 @@ export const Downloads = () => {
                   Extract the contents to your Minecraft mods folder. Import this profile into curseforge to use.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.2.0%20Curseforge.zip"
+                  href="/modpacks/Create%20Hell%201.4.0%20Curseforge.zip"
                   download
                   className="btn btn-outline-primary btn-lg"
                 >
@@ -74,7 +74,7 @@ export const Downloads = () => {
                   Extract the contents into your Minecraft folder to play with the modpack.
                 </Card.Text>
                 <a
-                    href="https://downloads.gtaepic.xyz/Create%20Hell%201.2.0%20Manual.zip"
+                    href="https://downloads.gtaepic.xyz/Create%20Hell%201.4.0%20Manual.zip"
                     download
                     className="btn btn-outline-success btn-lg"
                 >
