@@ -47,7 +47,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/Create%20Hell%201.2.0.mrpack" download className="btn btn-primary">
+          <a href="/modpacks/Create%20Hell%201.6.0.mrpack" download className="btn btn-primary">
             <i className="bi bi-download me-2"></i>
             Download .mrpack File
           </a>
@@ -65,7 +65,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/Create%20Hell%201.2.0%20Curseforge.zip" download className="btn btn-outline-primary">
+          <a href="/modpacks/Create%20Hell%201.6.0%20Curseforge.zip" download className="btn btn-outline-primary">
             <i className="bi bi-download me-2"></i>
             Download .zip File
           </a>
@@ -75,7 +75,7 @@ export const Guide = () => {
         <p>For CurseForge Launcher with Forge.</p>
         <ol>
           <li>Download the <strong>.zip</strong> file from the <a href="/downloads">Downloads</a> page</li>
-          <li>Make sure you have the correct version of Minecraft Forge installed (v47.3.29)</li>
+          <li>Make sure you have the correct version of Minecraft Forge installed (v47.4.6)</li>
           <li>Locate your Minecraft installation folder:
             <ul>
               <li><strong>Windows:</strong> <code>%appdata%\.minecraft</code></li>
@@ -88,7 +88,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="https://downloads.gtaepic.xyz/Create%20Hell%201.2.0%20Manual.zip" download className="btn btn-outline-success">
+          <a href="https://nextcloud.gtaepic.xyz/s/minecraft" className="btn btn-outline-success">
             <i className="bi bi-download me-2"></i>
             Download .zip File
           </a>

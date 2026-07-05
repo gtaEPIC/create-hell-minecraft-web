@@ -3,6 +3,7 @@ import { Card, Row, Col } from 'react-bootstrap';
 import '../styles/pages.css';
 import {RiFolderZipLine} from "react-icons/ri";
 import {PiFileZipDuotone} from "react-icons/pi";
+import { CiWarning } from "react-icons/ci";
 
 export const Downloads = () => {
   return (
@@ -26,7 +27,7 @@ export const Downloads = () => {
                   This format provides the easiest installation experience with automatic mod downloading.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.5.0.mrpack"
+                  href="/modpacks/Create%20Hell%201.6.0.mrpack"
                   download
                   className="btn btn-primary btn-lg"
                 >
@@ -49,7 +50,7 @@ export const Downloads = () => {
                   Extract the contents to your Minecraft mods folder. Import this profile into curseforge to use.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.5.0%20Curseforge.zip"
+                  href="/modpacks/Create%20Hell%201.6.0%20Curseforge.zip"
                   download
                   className="btn btn-outline-primary btn-lg"
                 >
@@ -74,13 +75,58 @@ export const Downloads = () => {
                   Extract the contents into your Minecraft folder to play with the modpack.
                 </Card.Text>
                 <a
-                    href="https://nextcloud.gtaepic.xyz/s/ciKSNCr9FP2W9WM"
-                    download
+                    href="https://nextcloud.gtaepic.xyz/s/minecraft"
                     className="btn btn-outline-success btn-lg"
                 >
                   <i className="bi bi-download me-2"></i>
                   Download .zip
                 </a>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+
+        <Row className="g-4 mb-2">
+          <Col>
+            <Card bg="dark" text="light" className="download-card">
+              <Card.Body>
+                <div className="download-icon">
+                  <CiWarning />
+                </div>
+                <Card.Title>Updating from 1.5.0 to 1.6.0</Card.Title>
+                <Card.Text>
+                  Please follow this guide if you are manually updating from 1.5.0 to 1.6.0.<br/><br/>
+
+                  <b><u>The version of forge used has been updated, and will require you to update it. Please use 47.4.6</u></b><br/>
+
+                  The following mods have been added, please add them accordingly:<br/>
+
+                  <ul>
+                    <li>+ Added Immersive Paintings - 0.6.13</li>
+                    <li>+ Added Raven Brews Core - 1.0.1</li>
+                    <li>+ Added Raven Coffee - 0.5.2</li>
+                    <li>+ Added Room for Two - 0.1.1</li>
+                    <li>+ Added Two Players One Horse - 1.0.3</li>
+                    <li>+ Added Forgified Fabric API - 0.92.6+1.11.14</li>
+                    <li>+ Added ClickSigns - 1.0.6</li>
+                    <li>+ Added Immersive Petroleum - 4.3.4-36</li>
+                    <li>+ Added Immersive Industry - 0.2.4</li>
+                    <li>+ Added Create: Radars - 0.3.5</li>
+                    <li>+ Added Tacz 40k - 2.0.0</li>
+                    <li>+ Added Wax Stamps & Seals - 1.0.0</li>
+                    <li>+ Added Mekanism: More Machine (mekmm) - 1.2.1</li>
+                    <li>+ Added Mekanism Weaponry - 1.1.2</li>
+                    <li>+ Added Cosmetic Armor Reworked - v1a</li>
+                    <li>+ Added Sound Physics Remastered - 1.5.1</li>
+                  </ul>
+
+                  <br/>
+
+                  Please Update the following mods:<br/>
+                  <ul>
+                    <li>+ UPDATED Create Japan Signals from 0.2.6 -{">"} 0.3.0</li>
+                  </ul>
+                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
