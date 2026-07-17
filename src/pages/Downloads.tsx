@@ -27,7 +27,7 @@ export const Downloads = () => {
                   This format provides the easiest installation experience with automatic mod downloading.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.6.0.mrpack"
+                  href="/modpacks/Create%20Hell%201.7.0.mrpack"
                   download
                   className="btn btn-primary btn-lg"
                 >
@@ -50,7 +50,7 @@ export const Downloads = () => {
                   Extract the contents to your Minecraft mods folder. Import this profile into curseforge to use.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.6.0%20Curseforge.zip"
+                  href="/modpacks/Create%20Hell%201.7.0%20Curseforge.zip"
                   download
                   className="btn btn-outline-primary btn-lg"
                 >
@@ -88,6 +88,38 @@ export const Downloads = () => {
 
         <Row className="g-4 mb-2">
           <Col>
+            <Card bg="dark" text="light" className="download-card">
+              <Card.Body>
+                <div className="download-icon">
+                  <CiWarning />
+                </div>
+                <Card.Title>Updating from 1.6.0 to 1.7.0</Card.Title>
+                <Card.Text>
+                  Please follow this guide if you are manually updating from 1.6.0 to 1.7.0.<br/><br/>
+
+                  The following mods have been added, please add them accordingly:<br/>
+
+                  <ul>
+                    <li>+ Added Touhou Little Maid - 1.5.3</li>
+                    <li>+ Added Create: Powerlines - 1.1.8</li>
+                    <li>+ Added Just Stargate Mod - 1.5.2</li>
+                    <li>+ Added Create: Security Program - 0.1.2</li>
+                    <li>+ Added Hide Item Frame Forge 1.19 - v1.4.2</li>
+                    <li>+ Added Create: Train Utilities - v3.0.0</li>
+                    <li>+ Added Modern Japan City - 1.0.8</li>
+                    <li>+ Added Japaniture - 0.0.2</li>
+                    <li>+ Added Horizontal Glass Panes - 2.0.0</li>
+                    <li>+ Added Animal Pens - 2.4.3</li>
+                    <li>+ Added Bamboo 2: Modded Boogaloo - 0.4</li>
+                    <li>+ Added More Woodset Furniture - 1.0.1</li>
+                    <li>+ Added Easy Craftable Gunpowder - 1.0.0</li>
+                    <li>+ Added Mighty Mail - 1.1.4</li>
+                    <li>+ Added Moonlight - 2.16.34</li>
+                    <li>+ Added Amendments - 2.2.5</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
             <Card bg="dark" text="light" className="download-card">
               <Card.Body>
                 <div className="download-icon">

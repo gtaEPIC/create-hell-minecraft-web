@@ -47,7 +47,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/Create%20Hell%201.6.0.mrpack" download className="btn btn-primary">
+          <a href="/modpacks/Create%20Hell%201.7.0.mrpack" download className="btn btn-primary">
             <i className="bi bi-download me-2"></i>
             Download .mrpack File
           </a>
@@ -65,7 +65,7 @@ export const Guide = () => {
         </ol>
 
         <div className="my-4">
-          <a href="/modpacks/Create%20Hell%201.6.0%20Curseforge.zip" download className="btn btn-outline-primary">
+          <a href="/modpacks/Create%20Hell%201.7.0%20Curseforge.zip" download className="btn btn-outline-primary">
             <i className="bi bi-download me-2"></i>
             Download .zip File
           </a>
