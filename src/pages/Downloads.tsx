@@ -27,7 +27,7 @@ export const Downloads = () => {
                   This format provides the easiest installation experience with automatic mod downloading.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.7.0.mrpack"
+                  href="/modpacks/Create%20Hell%201.7.1.mrpack"
                   download
                   className="btn btn-primary btn-lg"
                 >
@@ -50,7 +50,7 @@ export const Downloads = () => {
                   Extract the contents to your Minecraft mods folder. Import this profile into curseforge to use.
                 </Card.Text>
                 <a
-                  href="/modpacks/Create%20Hell%201.7.0%20Curseforge.zip"
+                  href="/modpacks/Create%20Hell%201.7.1%20Curseforge.zip"
                   download
                   className="btn btn-outline-primary btn-lg"
                 >
@@ -88,6 +88,39 @@ export const Downloads = () => {
 
         <Row className="g-4 mb-2">
           <Col>
+            <Card bg="dark" text="light" className="download-card">
+              <Card.Body>
+                <div className="download-icon">
+                  <CiWarning />
+                </div>
+                <Card.Title>Updating from 1.7.0 to 1.7.1</Card.Title>
+                <Card.Text>
+                  Please follow this guide if you are manually updating from 1.7.0 to 1.7.1.<br/><br/>
+
+                  The following mods <strong>HAVE BEEN REMOVED</strong>. Please remove them accordingly:<br/>
+                  <ul>
+                    <li>- Removed FTB Chunks</li>
+                    <li>- Removed FTB Quests</li>
+                    <li>- Removed FTB Ultimine</li>
+                  </ul>
+                  <br/><br/>
+
+                  The following mods <strong>HAVE BEEN DOWNGRADED</strong>. Please update their version accordingly. These mods can be found in the modified files zip:<br/>
+                  <ul>
+                    <li>~ Downgrade xaero world map to 1.40.16</li>
+                    <li>~ Downgrade xaero mini map to 25.3.13</li>
+                  </ul>
+                  <br/><br/>
+
+                  The following mods have been added, please add them accordingly:<br/>
+
+                  <ul>
+                    <li>+ Added Open Parties and Claims - 0.25.8</li>
+                    <li>+ Azmine - 2.0.0</li>
+                  </ul>
+                </Card.Text>
+              </Card.Body>
+            </Card>
             <Card bg="dark" text="light" className="download-card">
               <Card.Body>
                 <div className="download-icon">
